@@ -1,4 +1,4 @@
-class LuciferMoringstar(object):
+class LuciferMovie(object):
 
     DEFAULT_MSG = """
 **Hello 👋 {mention}**,
