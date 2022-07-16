@@ -210,7 +210,6 @@ async def cb_handler(client: LuciferMovie_Bot, query):
             title = files.file_name
             size=get_size(files.file_size)
             caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, title=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton(f"🆘👤 Owner", url="https://t.me/hellodarklord") ]]
           
             try:
                 if FORCES_SUB and not await is_subscribed(client, query):
@@ -293,7 +292,7 @@ async def cb_handler(client: LuciferMovie_Bot, query):
              InlineKeyboardButton("🏠 Home", callback_data="start"),
              InlineKeyboardButton("Close 🗑️", callback_data="close")
              ]]               
-            await query.message.edit(text=LuciferMovie.PROFESSOR_77.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=LuciferMovie.PROFESSOR-77.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "close":
             await query.message.delete()
