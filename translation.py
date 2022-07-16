@@ -9,7 +9,7 @@ class LuciferMovie(object):
     
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
-    DARKLORD_77 = """
+    PROFESSOR_77 = """
 🤖 My Name : {bot_name}
 
 🤴 My Dev : HeartBeat
@@ -68,7 +68,7 @@ Thank You For Reading Patiently 🙏"""
 
 ╰──────[ 👑 ]───────╯"""
     
-    PR0FESS0R_99 = """
+    PROFESSOR_77 = """
 **ADMIN COMMANDS**
 
  » /broadcast - Reply Any Media Or Message
