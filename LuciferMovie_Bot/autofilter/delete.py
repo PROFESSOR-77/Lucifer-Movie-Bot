@@ -1,12 +1,12 @@
 import logging
-from pyrogram import Client as LuciferMoringstar_Robot, filters as Worker
+from pyrogram import Client as LuciferMovie_Bot, filters as Worker
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from LuciferMoringstar_Robot.database.autofilter_db import Media
+from LuciferMovie_Bot.database.autofilter_db import Media
 from config import ADMINS
 logger = logging.getLogger(__name__)
 
 
-@LuciferMoringstar_Robot.on_message(Worker.command('delete') & Worker.user(ADMINS))
+@LuciferMovie_Bot.on_message(Worker.command('delete') & Worker.user(ADMINS))
 async def delete(bot, message):
 
     reply = message.reply_to_message
@@ -30,25 +30,25 @@ async def delete(bot, message):
         'mime_type': media.mime_type
     })
     if result.deleted_count:
-        await msg.edit('File Is Successfully Deleted From Database ✔')
+        await msg.edit('File Is Successfully Deleted From Database ✓')
     else:
         await msg.edit('File Not Found In Database ✗')
 
 
-@LuciferMoringstar_Robot.on_message(Worker.command('deleteall') & Worker.user(ADMINS))
+@LuciferMovie_Bot.on_message(Worker.command('deleteall') & Worker.user(ADMINS))
 async def delete_all_index(bot, message):
     await message.reply_text(
-        text="This will delete all indexed files.\nDo you want to continue??",
+        text="This will delete all indexed files.\nDo you want to continue ??",
         reply_markup=InlineKeyboardMarkup([[
-           InlineKeyboardButton("✔ Yes", callback_data="autofilter_delete"),
+           InlineKeyboardButton("✓ Yes", callback_data="autofilter_delete"),
            InlineKeyboardButton("No ✗", callback_data="close")   
            ]]
         )
     )
 
-@LuciferMoringstar_Robot.on_callback_query(Worker.regex(r'^autofilter_delete'))
+@LuciferMovie_Bot.on_callback_query(Worker.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.message.edit('Succesfully Deleted All The Indexed Files ✔')
+    await message.message.edit('Succesfully Deleted All The Indexed Files ✓')
 
 
