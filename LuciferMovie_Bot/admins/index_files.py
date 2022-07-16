@@ -1,19 +1,19 @@
 # https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/index.py
 # (old Code) Thanks To EvamariaTG 
 import logging, asyncio, re
-from pyrogram import Client as luciferMoringstar_robot, filters as filter
+from pyrogram import Client as LuciferMovie_Bot, filters as filter
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, ChatAdminRequired, UsernameInvalid, UsernameNotModified
 from config import ADMINS, LOG_CHANNEL
-from LuciferMoringstar_Robot.database.autofilter_db import save_file
+from LuciferMovie_Bot.database.autofilter_db import save_file
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from LuciferMoringstar_Robot.database._utils import lucifer_temp
+from LuciferMovie_Bot.database._utils import lucifer_temp
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 lock = asyncio.Lock()
 
-@luciferMoringstar_robot.on_message((filter.forwarded | (filter.regex("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")) & filter.text ) & filter.private & filter.incoming)
+@LuciferMovie_Bot.on_message((filter.forwarded | (filter.regex("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")) & filter.text ) & filter.private & filter.incoming)
 async def send_for_index(bot, message):
     if message.text:
         regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
@@ -48,7 +48,7 @@ async def send_for_index(bot, message):
     if message.from_user.id in ADMINS:
         buttons = [
             [
-                InlineKeyboardButton('✔ Yes',
+                InlineKeyboardButton('✓ Yes',
                                      callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')
             ],
             [
@@ -69,7 +69,7 @@ async def send_for_index(bot, message):
         link = f"@{message.forward_from_chat.username}"
     buttons = [
         [
-            InlineKeyboardButton('✔ Accept Index',
+            InlineKeyboardButton('✓ Accept Index',
                                  callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')
         ],
         [
@@ -84,7 +84,7 @@ async def send_for_index(bot, message):
     await message.reply('ThankYou For the Contribution, Wait For My Moderators to verify the files.')
 
 
-@luciferMoringstar_robot.on_message(filter.command('setskip') & filter.user(ADMINS))
+@LuciferMovie_Bot.on_message(filter.command('setskip') & filter.user(ADMINS))
 async def set_skip_number(bot, message):
     if ' ' in message.text:
         _, skip = message.text.split(" ")
