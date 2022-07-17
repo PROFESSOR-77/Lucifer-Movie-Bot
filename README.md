@@ -10,3 +10,11 @@
 </a>
 </p>
 </details>
+
+```
+### Credits
+
+Thanks To [LuciferMovie_Bot](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot) [Orginal Code](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot)
+Thanks To [HeartBeat](https://github.com/PR0FESS0R-77)
+Thanks To [Developers](https://github.com/PR0FESS0R-77/LuciferMovie_Bot#credits)
+```
