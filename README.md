@@ -22,3 +22,14 @@ Thanks To [LuciferMovie_Bot](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot) 
 Thanks To [HeartBeat](https://github.com/PR0FESS0R-77)
 Thanks To [Developers](https://github.com/PR0FESS0R-77/LuciferMovie_Bot#credits)
 ```
+### Support
+
+Join Our [Telegram Group](https://telegram.dog/Tech_Masters2022) For Support/Assistance And Our [Channel](https://telegram.dog/Tech_Masters) For Updates.
+
+Report Bugs, Give Feature Requests There..
+Do Fork And Star The Repository If You Liked It.
+
+<a href="https://telegram.dog/Tech_Masters2022"><img alt="telegram" src="https://img.shields.io/badge/Group-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
+<a href="https://telegram.dog/Tech_Masters"><img alt="telegram" src="https://img.shields.io/badge/Channel-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
+
+----
