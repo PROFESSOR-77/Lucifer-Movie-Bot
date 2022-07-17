@@ -1,6 +1,10 @@
+## Lucifer-Movie-Bot 
+
 ![IMG_20220716_200716_854](https://user-images.githubusercontent.com/109091765/179364188-055f636d-11fd-40f8-88e4-8f26b16bf312.jpg)
 
-# Lucifer-Movie-Bot
+<img src="https://img.shields.io/github/stars/PR0FESS0R-77/Lucifer-Movie-Bot?style=social"/>   <img src="https://img.shields.io/github/forks/PR0FESS0R-77/Lucifer-Movie-Bot?style=social"/>
+
+----
 
 <details><summary>Deploy To Heroku</summary>
 <p>
