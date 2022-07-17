@@ -29,8 +29,8 @@ Join Our [Telegram Group](https://telegram.dog/Tech_Masters2022) For Support/Ass
 Report Bugs, Give Feature Requests There..
 Do Fork And Star The Repository If You Liked It.
 
-<a href="https://telegram.dog/Tech_Masters2022"><img alt="telegram" src="https://img.shields.io/badge/Group-%22B1B17.svg?&logo=telegram&logoColor=blue"></a>
-<a href="https://telegram.dog/Tech_Masters"><img alt="telegram" src="https://img.shields.io/badge/Channel-%22B1B17.svg?&logo=telegram&logoColor=blue"></a>
+<a href="https://telegram.dog/Tech_Masters2022"><img alt="telegram" src="https://img.shields.io/badge/Group-%22B1B17.svg?&logo=telegram&logoColor=red"></a>
+<a href="https://telegram.dog/Tech_Masters"><img alt="telegram" src="https://img.shields.io/badge/Channel-%22B1B17.svg?&logo=telegram&logoColor=red"></a>
 
 ----
 
