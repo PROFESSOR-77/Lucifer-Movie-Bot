@@ -33,3 +33,17 @@ Do Fork And Star The Repository If You Liked It.
 <a href="https://telegram.dog/Tech_Masters"><img alt="telegram" src="https://img.shields.io/badge/Channel-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
 
 ----
+
+### Pre Requisites 
+
+* ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
+
+* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@PyGetssApiBot](http://www.telegram.dog/PyGetssApiBot)__
+
+* ->__Your Telegram Id From [@Get_Channel_User_Telegram_ID_Bot](http://www.telegram.dog/Get_Channel_User_Telegram_ID_Bot)__
+
+* ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
+
+* ->__TelegraPH Pictures Link From [@Link_Picture_bot](http://www.telegram.dog/Link_Picture_bot)
+
+* ->__Telegram Channel & Group id From [@Get_Channel_User_Telegram_ID_Bot](http://www.telegram.dog/Get_Channel_User_Telegram_ID_Bot)__
