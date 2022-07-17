@@ -16,7 +16,7 @@ API_HASH = environ["API_HASH"]
 B_KEYS = environ["BOT_TOKEN"]
 START_MSG = environ.get("START_MSG", LuciferMovie.DEFAULT_MSG)
 BOT_PICS = (environ.get('PICS', 'https://telegra.ph/file/8d4e4693a8a907cb51797.jpg')).split()
-SUPPORT = environ.get("SUPPORT", "t.me/Mo_Tech_YT")
+SUPPORT = environ.get("SUPPORT", "t.me/Tech_Masters2022")
 SPELL_MODE = is_enabled((environ.get('SPELL_MODE', "on")), True)
 SET_SPEL_M = environ.get("SPELL_MODE_TEXT", LuciferMovie.SPELL_CHECK)
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", None))
@@ -42,8 +42,8 @@ DATABASE_NAME = environ.get("DATABASE_NAME", 'LuciferMovie_Bot')
 AUTH_USERS = (AUTH_USERS + ADMINS) if AUTH_USERS else []
 # ==================================
 
-team_name = os.environ.get('team_name', 'Mo Tech 🇮🇳')
-team_link = os.environ.get('team_link', 't.me/Mo_Tech_YT')
+team_name = os.environ.get('team_name', 'Tech Masters')
+team_link = os.environ.get('team_link', 't.me/Tech_Masters2022')
 
 # ==================================
 # About Bot 🤖
