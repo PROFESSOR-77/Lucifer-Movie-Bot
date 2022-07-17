@@ -1,32 +1,31 @@
 {
     "name": "LuciferMovie_Bot",
-    "description": "Created By @helloheartbeatboss",
-    "logo": "https://telegra.ph/file/aabbe1b1f267be91206c5.jpg",
+    "description": "When you going to send File on Telegram Channel this bot will save that in database, So you can get file in Bot PM",
+    "logo": "https://telegra.ph/file/0ba08ae94dc4808007b9f.jpg",
     "stack": "container",
     "keywords": [
       "best",
-      "telegarm",
-      "auto",
-      "filter",
+      "telegram",
+      "auto-filter",
       "bot"
     ],
-    "website": "https://chrome.com",
-    "repository": "https://github.com/HEARTBEAT-77/Lucifer-Movie-Bot",
+    "website": "https://github.com/PROFESSOR-77/Lucifer-Movie-Bot",
+    "repository": "https://github.com/PROFESSOR-77/Lucifer-Movie-Bot",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your Bot Token From https://youtu.be/cB4UduCcNWs",
+            "description": "Your Bot Token From @botfather",
             "value": ""
         },
         "API_ID": {
-            "description": "Get this value from https://youtu.be/5eEsvLAKVc0 or @MT_MytelegramOrg_Bot",
+            "description": "Your Telegram Api Id",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from https://youtu.be/5eEsvLAKVc0 or @MT_MytelegramOrg_Bot",
+            "description": "Your Telegram Api Hash",
             "value": ""
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space. @MT_ID_Bot",
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "value": ""
         },
         "ADMINS": {
@@ -44,12 +43,12 @@
             "required": false
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
+            "description": "Add some telegraph link of pictures.",
             "value": "",
             "required": false
         },
         "START_MSG": {
-            "description": "Welcome message for start command More Information Check Readme.md",
+            "description": "Welcome message for start command.",
             "value": "",
             "required": false
         },
@@ -59,7 +58,7 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "Mongodb from https://youtu.be/gBLTsH-IXr0",
+            "description": "Mongodb from MongoDB.com",
             "value": ""
         },
         "SPELL_MODE": {
@@ -68,12 +67,12 @@
             "required": true
         },
         "SPELL_MODE_TEXT": {
-            "description": "Seplling Mode Text For More Info Check Readme.md",
+            "description": "Seplling Mode Text.",
             "value": "",
             "required": true
         },
         "LOG_CHANNEL": {
-            "description": "Log Channel Use Private Channel Id -100×××× from @MT_ID_Bot",
+            "description": "Log Channel Use Private Channel Id -100××××",
             "value": ""
         },
         "DEV_NAME": {
@@ -83,7 +82,7 @@
         },
         "SUPPORT": {
             "description": "Your Group Link Private or Public Link (with t.me or https://t.me)",
-            "value": "https://telegram.dog/Mo_Tech_Group",
+            "value": "https://telegram.dog/Tech_Masters2022",
             "required": true
         }
     },
