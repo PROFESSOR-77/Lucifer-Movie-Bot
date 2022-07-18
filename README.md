@@ -6,10 +6,12 @@
 
 ----
 
+## 🧑‍💻 𝗗𝗲𝗽𝗹𝗼𝘆 𝗧𝗼 𝗛𝗲𝗿𝗼𝗸𝘂 👨‍💻
+
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/PROFESSOR-77/Lucifer-Movie-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/BIKASH-99/LuciferMovie-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -18,8 +20,8 @@
 ```
 ### Credits
 
-Thanks To [LuciferMovie_Bot](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot) [Orginal Code](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot)
-Thanks To [HeartBeat](https://github.com/PR0FESS0R-77)
+Thanks To [LuciferMovie_Bot](https://github.com/BIKASH-99/LuciferMovie-Bot) [Orginal Code](https://github.com/PR0FESS0R-77/Lucifer-Movie-Bot)
+Thanks To [HeartBeat](https://github.com/PR0FESS0R-77) (https://github.com/BIKASH-99)
 Thanks To [Developers](https://github.com/PR0FESS0R-77/LuciferMovie_Bot#credits)
 ```
 ### Support
@@ -34,16 +36,45 @@ Do Fork And Star The Repository If You Liked It.
 
 ----
 
-### Pre Requisites 
+## 🔘 <a href="https://github.com/Professor-77/Lucifer-Movie-Bot">𝗔𝗱𝗱𝗲𝗱 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀</a> 🔘
 
-* ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
+- [x] IMDB Poster
+- [x] IMDB Rating
+- [x] Index Files
+- [x] Media Search
+- [x] AutoFilter 
+- [x] Via Mode
+- [x] Broadcast 
+- [x] Random Pics
+- [x] Check Spell
+- [x] Welcome
+- [x] Status
+- [x] Custom Caption
 
-* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@PyGetssApiBot](http://www.telegram.dog/PyGetssApiBot)__
+----
 
-* ->__Your Telegram Id From [@Get_Channel_User_Telegram_ID_Bot](http://www.telegram.dog/Get_Channel_User_Telegram_ID_Bot)__
+## 📍 Pre Requisites
 
-* ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
+* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space.
+* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space.
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/gBLTsH-IXr0)
 
-* ->__TelegraPH Pictures Link From [@Link_Picture_bot](http://www.telegram.dog/Link_Picture_bot)
+* `FORCE_SUB`: ID of channel. Without subscribing this channel users cannot use bot.
+* `AUTH_GROUPS` : Id Of Groups Which Bot Should Work As Autofilter, Bot Can Only Work In Thease Groups. If Not Given , Bot Can Be Used In Any Group.
+* `AUTH_USERS`: Username Or Id Of Users To Give Access Of Inline Search. Separate Multiple Users By Space. Leave It Empty If You Don't Want To Restrict Bot Usage.
+* `START_MSG`: Welcome Message For Start Command.
+* `CUSTOM_FILE_CAPTION` : A Custom Caption For Your Files. 
+* `PICS`: Telegraph Random Photo. 
+* `DEV_NAME` : Developer Name.
+* `SPELL_MODE` : Seplling Mode (On/off)
+* `SPELL_MODE_TEXT` : Set Coutom Spelling Mode Text.
 
-* ->__Telegram Channel & Group id From [@Get_Channel_User_Telegram_ID_Bot](http://www.telegram.dog/Get_Channel_User_Telegram_ID_Bot)__
+* `CACHE_TIME`: The maximum amount of time in seconds that the result of the inline query may be cached on the server.
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/gBLTsH-IXr0)
+* `COLLECTION_NAME`: Name of the collections. Defaults to (Telegram_files). If you going to use same database, then use different collection name for each bot.
+* `USE_CAPTION_FILTER`: Whether bot should use captions to improve search results. (True/False)
+
+----
